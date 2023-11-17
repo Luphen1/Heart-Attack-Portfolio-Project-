@@ -143,6 +143,7 @@ FROM
     ```
 
 ```
+
 SELECT age_category, 
  MAX(pressure_high) - MIN(pressure_low) AS blood_pressure_range
 FROM heart_attack
@@ -151,6 +152,7 @@ GROUP BY age_category;
 ```
 
 ```
+
 SELECT age_category,ROUND (AVG(glucose),2) AS avg_glucose
 FROM heart_attack
 GROUP BY age_category;
@@ -158,6 +160,7 @@ GROUP BY age_category;
 ```
 
 ```
+
 SELECT age_category,class, COUNT(*) AS count_of_heart_attack
 FROM heart_attack
 GROUP BY age_category,class
@@ -166,6 +169,7 @@ ORDER BY COUNT(*) DESC;
 ```
 
 ```
+
 SELECT DISTINCT age_category
 ,glucose
 FROM heart_attack
@@ -175,6 +179,7 @@ WHERE glucose >
 ```
 
 ```
+
 SELECT age_category,ROUND(
 AVG(troponin),2) 
 AS avg_troponin
@@ -185,6 +190,7 @@ ORDER BY avg_troponin DESC;
 ```
 
 ```
+
 SELECT 
     class,
     ROUND(AVG(impulse), 2) AS avg_impulse,
@@ -196,6 +202,7 @@ GROUP BY class;
 ```
 
 ```
+
 SELECT age_Category, ROUND(STDDEV(Glucose),2) AS Glucose_Variation
 FROM 
      heart_attack
@@ -205,6 +212,7 @@ ORDER BY Glucose_Variation DESC;
 ```
 
 ```
+
 SELECT
     age_Category,
     (SUM(pressure_high) / (SUM(pressure_high) + SUM(pressure_low))) * 100 AS Pressure_high_Percentage,
