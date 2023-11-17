@@ -34,57 +34,68 @@ Heart Attack:The primary database used for analysis is the  "heart_attack.csv" h
 
 ###  Data Cleaning/Preparing
 In the initial data preparation, I performed the following tasks below;
+
 1. Data loading and inspection
-2. Handling for missing value
-3. Checking for duplicate values
-4. Convert each headers to  the right  data type
+2.
+3.
+4. Handling for missing value
+5. Checking for duplicate values
+6. Convert each headers to  the right  data type
 
 ###  Exploration Data Analysis
 EDA involved exploring the heart_attack data to answer key questions such as;
 
 1. What is the age_distribution breakdown?
-2. What is the gender breakdown?
-3. Find age_category by gender in the dataset
-4. What is the blood_pressure range?
-5. Find the average glucose level of age category
-6. What is the heart class breakdown by age category?
-7. What is average glucose by age category?
-8. What is the average troponin by age category ?
-9. Class breakdown of average impulse and glucose in the dataset
-10. What is the age category with glucose variation
-11. Find the percentage of pressure rate by age category 
+2.
+3. What is the gender breakdown?
+4. Find age_category by gender in the dataset
+5. What is the blood_pressure range?
+6. Find the average glucose level of age category
+7. What is the heart class breakdown by age category?
+8. What is average glucose by age category?
+9. What is the average troponin by age category ?
+10. Class breakdown of average impulse and glucose in the dataset
+11. What is the age category with glucose variation
+12. Find the percentage of pressure rate by age category 
 
 ###  Data Analysis
 Below are some interesting code/features and cleaning I worked with 
 
 ```
 USE heart_attack;
+
 ```
 
 ```
 SELECT * FROM heart_attack;
+
 ```
 
 ```
 DESCRIBE heart_attack;
+
 ```
 
 ```
 SET sql_safe_updates= 0;
+
 ```
 
-``
+```
 SET sql_safe_updates = 1;
+
 ```
 
 ```
 ALTER TABLE heart_attack
 ADD age_category text;
+
 ```
 
 ```
 ALTER TABLE heart_attack
 DROP age;
+
 ```
 
  ```
@@ -100,6 +111,7 @@ SET age_category   =
         WHEN age BETWEEN 70 AND 103 THEN 'old'
         ELSE NULL
     END;
+
 ```
     
  ```
@@ -107,6 +119,7 @@ SELECT age_category, COUNT(*) AS count_of_age
 FROM heart_attack
 GROUP BY age_category
 ORDER BY COUNT(*)DESC;
+
 ```
 
 ```
@@ -116,6 +129,7 @@ FROM (
     FROM heart_attack
     GROUP BY gender
 ) AS gender;
+
 ```
 
 ```
@@ -125,6 +139,7 @@ FROM
     heart_attack
     GROUP BY age_category,gender
     ORDER BY COUNT(*) DESC;
+
     ```
 
 ```
@@ -132,12 +147,14 @@ SELECT age_category,
  MAX(pressure_high) - MIN(pressure_low) AS blood_pressure_range
 FROM heart_attack
 GROUP BY age_category;
+
 ```
 
 ```
 SELECT age_category,ROUND (AVG(glucose),2) AS avg_glucose
 FROM heart_attack
 GROUP BY age_category;
+
 ```
 
 ```
@@ -145,6 +162,7 @@ SELECT age_category,class, COUNT(*) AS count_of_heart_attack
 FROM heart_attack
 GROUP BY age_category,class
 ORDER BY COUNT(*) DESC;
+
 ```
 
 ```
@@ -153,6 +171,7 @@ SELECT DISTINCT age_category
 FROM heart_attack
 WHERE glucose >
 (SELECT AVG(glucose) FROM heart_attack);
+
 ```
 
 ```
@@ -162,6 +181,7 @@ AS avg_troponin
 FROM heart_attack
 GROUP BY age_category
 ORDER BY avg_troponin DESC; 
+
 ```
 
 ```
@@ -172,6 +192,7 @@ SELECT
 FROM
     heart_attack
 GROUP BY class;
+
 ```
 
 ```
@@ -180,6 +201,7 @@ FROM
      heart_attack
 GROUP BY age_category
 ORDER BY Glucose_Variation DESC;
+
 ```
 
 ```
@@ -189,6 +211,7 @@ SELECT
     (SUM(pressure_low) / (SUM(pressure_high) + SUM(pressure_low))) * 100 AS Pressure_low_Percentage
 FROM heart_attack
 GROUP BY age_Category;
+
 ```
 
 ###  Results/Findings
