@@ -45,11 +45,11 @@ EDA involved exploring the heart_attack data to answer key questions such as;
 
 1. What is the age_distribution breakdown?
 2. What is the gender breakdown?
-3. Find age_category by gender in the dataset
-4. What is the blood_pressure range?
+3. Find age category by gender in the dataset
+4. What is the blood pressure range?
 5. Find the average glucose level of age category
 6. What is the heart class breakdown by age category?
-7. What is average glucose by age category?
+7. Find age category that has impulse more that average
 8. What is the average troponin by age category ?
 9. Class breakdown of average impulse and glucose in the dataset
 10. What is the age category with glucose variation
@@ -167,11 +167,10 @@ ORDER BY COUNT(*) DESC;
 
 ```
 
-SELECT DISTINCT age_category
-,glucose
+SELECT age_category,AVG(impulse) AS avg_category_impulse
 FROM heart_attack
-WHERE glucose >
-(SELECT AVG(glucose) FROM heart_attack);
+GROUP BY age_category
+HAVING AVG(impulse) > (SELECT AVG(impulse) FROM heart_attack);
 
 ```
 
