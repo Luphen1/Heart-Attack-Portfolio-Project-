@@ -140,7 +140,7 @@ FROM
     GROUP BY age_category,gender
     ORDER BY COUNT(*) DESC;
 
-    ```
+  ```
 
 ```
 
