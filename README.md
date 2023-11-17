@@ -36,27 +36,24 @@ Heart Attack:The primary database used for analysis is the  "heart_attack.csv" h
 In the initial data preparation, I performed the following tasks below;
 
 1. Data loading and inspection
-2.
-3.
-4. Handling for missing value
-5. Checking for duplicate values
-6. Convert each headers to  the right  data type
+2. Handling for missing value
+3. Checking for duplicate values
+4. Convert each headers to  the right  data type
 
 ###  Exploration Data Analysis
 EDA involved exploring the heart_attack data to answer key questions such as;
 
 1. What is the age_distribution breakdown?
-2.
-3. What is the gender breakdown?
-4. Find age_category by gender in the dataset
-5. What is the blood_pressure range?
-6. Find the average glucose level of age category
-7. What is the heart class breakdown by age category?
-8. What is average glucose by age category?
-9. What is the average troponin by age category ?
-10. Class breakdown of average impulse and glucose in the dataset
-11. What is the age category with glucose variation
-12. Find the percentage of pressure rate by age category 
+2. What is the gender breakdown?
+3. Find age_category by gender in the dataset
+4. What is the blood_pressure range?
+5. Find the average glucose level of age category
+6. What is the heart class breakdown by age category?
+7. What is average glucose by age category?
+8. What is the average troponin by age category ?
+9. Class breakdown of average impulse and glucose in the dataset
+10. What is the age category with glucose variation
+11. Find the percentage of pressure rate by age category 
 
 ###  Data Analysis
 Below are some interesting code/features and cleaning I worked with 
