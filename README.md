@@ -234,6 +234,9 @@ The analysis results are summarize as follow
 
 
 ###  Recommendation 
+1. They should be more frequent health care for the young adult to reduce high blood pressure
+2. A special program could be set up for the senior age group to educate them , things they could do to reduce high risk to high blood pressure
+
 
      
 
