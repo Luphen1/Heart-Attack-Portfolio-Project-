@@ -24,7 +24,10 @@
 ###  Project Overview
 The data project aims to provide an insights about trends and patterns of heart attack across the dataset 
 
+![Screenshot (3)](https://github.com/Luphen1/Heart-Attack-Portfolio-Project-/assets/140397207/a8923162-5c38-40ab-a768-e2bfb299c2e9)
+
 ###  Data Sources
+
 Heart Attack:The primary database used for analysis is the  "heart_attack.csv" having the following headers age, gender, impulse, pressure_low, pressure_high, glucose,Kcm,troponin and class
 
 ###  Tools
