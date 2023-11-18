@@ -220,8 +220,18 @@ GROUP BY age_Category;
 
 ###  Results/Findings
 The analysis results are summarize as follow 
+1. Female has the highest occurrence of gender in the dataset 
+2. Young adult age group has the highest glucose variation
+3. Elder age group has the highest occurrence of gender
+4. Adult has the highest impulse above average in the dataset
+5. Elder occurs to have the highest occurrence of age in the dataset
+6. Senior age group has the most average glucose 
+7. Senior age group are most  risk to high blood pressure 
+8. Elder age group  has the highest average troponin
+9. There are high risk of heart attack in the dataset for the average glucose 
+10. Elder age group has the highest risk of heart attack in the dataset 
+11. Young  adult age group has the highest percentage attack of high blood pressure while the teenager has lowest percentage of low blood pressure 
 
-1. 
 
 ###  Recommendation 
 
