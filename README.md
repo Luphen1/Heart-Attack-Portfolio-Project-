@@ -42,6 +42,8 @@ In the initial data preparation, I performed the following tasks below;
 2. Handling for missing value
 3. Checking for duplicate values
 4. Convert each headers to  the right  data type
+5. Outlier Detection and Handling
+6. Handling Inconsistent Data and Typos
 
 ###  Exploration Data Analysis
 EDA involved exploring the heart_attack data to answer key questions such as;
