@@ -245,19 +245,24 @@ The analysis results are summarized as follow:
 9. Blood Pressure and Age Groups: Young adults have the highest percentage of high blood pressure attacks, while teenagers have the lowest percentage of low blood pressure
 
 
-###  Recommendations 
+###  Recommendations:
 
-1. Increased Healthcare for Young Adults: Implement more frequent healthcare check-ups and screenings for young adults to actively manage and reduce the risk of high blood pressure.
+1. Increase Healthcare Access: Provide more frequent health check-ups for young adults to address and prevent high blood pressure.
    
-2. Specialized Education Program for Seniors: Establish a dedicated program aimed at educating seniors on lifestyle modifications and preventive measures to reduce the high risk of developing high blood pressure. This could include dietary changes, exercise routines, stress management techniques, and regular monitoring of blood pressure.
+2. Senior Wellness Program: Implement specialized education programs for seniors to mitigate high blood pressure risks through lifestyle changes.
    
-3. Promote Heart-Healthy Lifestyle Choices: Encourage individuals across all age groups to adopt heart-healthy habits such as maintaining a balanced diet, engaging in regular physical activity, managing stress effectively, and avoiding smoking and excessive alcohol consumption.
+3. Promote Heart Health: Encourage heart-healthy habits across all age groups, including balanced diets and regular exercise.
    
-4. Public Awareness Campaigns: Launch public awareness campaigns to raise awareness about the risk factors associated with heart attacks and high blood pressure, targeting both younger and older demographics. These campaigns could include educational materials, workshops, and community events aimed at promoting cardiovascular health.
+4. Raise Awareness: Launch public campaigns to educate about heart attack risks and high blood pressure prevention.
    
-5. Accessible Healthcare Services: Ensure accessibility to healthcare services for all age groups, including affordable screenings, consultations, and treatment options for managing cardiovascular health. This may involve expanding healthcare infrastructure and resources in underserved areas.
+5. Improve Healthcare Accessibility: Ensure accessible healthcare services for all, especially in underserved areas.
    
-6. Family and Community Support: Encourage family members and communities to support individuals in maintaining healthy lifestyles and adhering to medical recommendations for preventing heart disease and managing high blood pressure. This support network can play a crucial role in sustaining long-term behavioral changes and improving overall cardiovascular health outcomes.
+6. Community Support: Foster family and community support to sustain healthy lifestyle changes.
+
+
+
+
+
 
      
 
