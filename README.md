@@ -224,24 +224,40 @@ GROUP BY age_Category;
 ```
 
 ###  Results/Findings
-The analysis results are summarize as follow 
-1. Female has the highest occurrence of gender in the dataset 
-2. Young adult age group has the highest glucose variation
-3. Elder age group has the highest occurrence of gender
-4. Adult has the highest impulse above average in the dataset
-5. Elder occurs to have the highest occurrence of age in the dataset
-6. Senior age group has the most average glucose 
-7. Senior age group are most  risk to high blood pressure 
-8. Elder age group  has the highest average troponin
-9. There are high risk of heart attack in the dataset for the average glucose 
-10. Elder age group has the highest risk of heart attack in the dataset 
-11. Young  adult age group has the highest percentage attack of high blood pressure while the teenager has lowest percentage of low blood pressure 
+The analysis results are summarized as follow:
+
+1. Gender Distribution: Females are the most prevalent gender in the dataset, especially among the elderly age group.
+
+2. Glucose Variation: Young adults exhibit the highest variation in glucose levels.
+
+3. Age Distribution: The dataset is predominantly composed of elderly individuals.
+
+4. Impulse: Adults demonstrate the highest impulse above average in the dataset.
+
+5. Average Glucose: Seniors have the highest average glucose levels.
+
+6. High Blood Pressure Risk: Seniors are at the highest risk of high blood pressure.
+
+7. Troponin Levels: Elderly individuals have the highest average troponin levels.
+
+8. Heart Attack Risk: There's a significant risk of heart attacks associated with average glucose levels, particularly among the elderly age group.
+
+9. Blood Pressure and Age Groups: Young adults have the highest percentage of high blood pressure attacks, while teenagers have the lowest percentage of low blood pressure
 
 
-###  Recommendation 
-1. They should be more frequent health care for the young adult to reduce high blood pressure
-2. A special program could be set up for the senior age group to educate them , things they could do to reduce high risk to high blood pressure
+###  Recommendations 
 
+1. Increased Healthcare for Young Adults: Implement more frequent healthcare check-ups and screenings for young adults to actively manage and reduce the risk of high blood pressure.
+   
+2. Specialized Education Program for Seniors: Establish a dedicated program aimed at educating seniors on lifestyle modifications and preventive measures to reduce the high risk of developing high blood pressure. This could include dietary changes, exercise routines, stress management techniques, and regular monitoring of blood pressure.
+   
+3. Promote Heart-Healthy Lifestyle Choices: Encourage individuals across all age groups to adopt heart-healthy habits such as maintaining a balanced diet, engaging in regular physical activity, managing stress effectively, and avoiding smoking and excessive alcohol consumption.
+   
+4. Public Awareness Campaigns: Launch public awareness campaigns to raise awareness about the risk factors associated with heart attacks and high blood pressure, targeting both younger and older demographics. These campaigns could include educational materials, workshops, and community events aimed at promoting cardiovascular health.
+   
+5. Accessible Healthcare Services: Ensure accessibility to healthcare services for all age groups, including affordable screenings, consultations, and treatment options for managing cardiovascular health. This may involve expanding healthcare infrastructure and resources in underserved areas.
+   
+6. Family and Community Support: Encourage family members and communities to support individuals in maintaining healthy lifestyles and adhering to medical recommendations for preventing heart disease and managing high blood pressure. This support network can play a crucial role in sustaining long-term behavioral changes and improving overall cardiovascular health outcomes.
 
      
 
