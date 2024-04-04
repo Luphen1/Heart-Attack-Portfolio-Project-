@@ -22,31 +22,30 @@
 
 
 ###  Project Overview
-The data project aims to provide an insights about trends and patterns of heart attack across the dataset 
+The data project aims to provide an insight about trends and patterns of heart attack across the dataset.
 
 ![Screenshot (3)](https://github.com/Luphen1/Heart-Attack-Portfolio-Project-/assets/140397207/a8923162-5c38-40ab-a768-e2bfb299c2e9)
 
 ###  Data Sources
-
-Heart Attack:The primary database used for analysis is the  "heart_attack.csv" having the following headers age, gender, impulse, pressure_low, pressure_high, glucose,Kcm,troponin and class
+Heart Attack: The primary database used for analysis is the “heart_attack.csv" having the following headers age, gender, impulse, pressure_low, pressure_high, glucose, Kcm, troponin and class.
 
 ###  Tools
-- Excel - is used for data cleaning to check of there are missing values and duplicate records across the spreadsheet
-- MySQL - is used to change the data type from age numeric value Column to string data type Column which enhances readibility and simplicity for visualization purposes 
-- Power Bi - Creating Report 
+- Excel - used for data cleaning to check of there are missing values and duplicate records across the spreadsheet.
+- MySQL - used to change the data type from age numeric value Column to string data type Column which enhances readibility and simplicity for visualization purposes. 
+- Power Bi - Creating Reports 
 
 ###  Data Cleaning/Preparing
-In the initial data preparation, I performed the following tasks below;
+In the initial data preparation, I performed the following tasks below:
 
-1. Data loading and inspection
-2. Handling for missing value
-3. Checking for duplicate values
-4. Convert each headers to  the right  data type
-5. Outlier Detection and Handling
-6. Handling Inconsistent Data and Typos
+1. Data loading and inspection.
+2. Handling for missing value.
+3. Checking for duplicate values.
+4. Convert each headers to  the right  data type.
+5. Outlier Detection and Handling.
+6. Handling Inconsistent Data and Typos.
 
 ###  Exploration Data Analysis
-EDA involved exploring the heart_attack data to answer key questions such as;
+EDA involved exploring the heart_attack data to answer key questions such as:
 
 1. What is the age_distribution breakdown?
 2. What is the gender breakdown?
@@ -61,7 +60,7 @@ EDA involved exploring the heart_attack data to answer key questions such as;
 11. Find the percentage of pressure rate by age category 
 
 ###  Data Analysis
-Below are some interesting code/features and cleaning I worked with 
+Below are some interesting codes/features and cleaning I worked with 
 
 ```
 USE heart_attack;
