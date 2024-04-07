@@ -31,7 +31,7 @@ Heart Attack: The primary database used for analysis is the “heart_attack.csv"
 
 ###  Tools
 - Excel - used for data cleaning to check of there are missing values and duplicate records across the spreadsheet.
-- MySQL - used to change the data type from age numeric value Column to string data type Column which enhances readibility and simplicity for visualization purposes. 
+- MySQL - used to change the data type from age numeric value Column to string data type Column which enhances readability and simplicity for visualization purposes. 
 - Power Bi - Creating Reports 
 
 ###  Data Cleaning/Preparing
